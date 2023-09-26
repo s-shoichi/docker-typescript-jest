@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api-sample:
+    container_name: jest-sample
+    build:
+      context: ./jest-sample
+    ports:
+      - 3000:3000
+    restart: always
+    tty: true
+    volumes:
+      - ./jest-sample:/app
