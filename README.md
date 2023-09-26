@@ -1,9 +1,10 @@
 # DockerでTypescript+Jest環境
 
 ## 0.前提
-- Dockerのインストール
-[Windows版はこちら](https://docs.docker.com/desktop/install/windows-install/)
-[Mac版はこちら](https://docs.docker.com/desktop/install/mac-install/) ※ M1/M2のMacの場合は、「Apple silicon」を選択
+- Dockerのインストール  
+[Windows版はこちら](https://docs.docker.com/desktop/install/windows-install/)  
+[Mac版はこちら](https://docs.docker.com/desktop/install/mac-install/)  
+※ M1/M2のMacの場合は、「Apple silicon」を選択  
 - リポジトリのクローン
 
 ## 1. Dockerの立ち上げ
@@ -21,8 +22,8 @@ $ docker-compose exec api-sample npm run test
 `Dockerコンテナの起動`
 ```
 $ docker-compose up -d
-`[-d]オプションをつけることでbackgroundで実行する。`
 ```
+`-d`オプションをつけることでbackgroundで実行する。  
 
 `Dockerコンテナのステータス確認`
 ```
